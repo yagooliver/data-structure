@@ -7,7 +7,7 @@ namespace BinaryTree.Client
     public class Bst<T> where T : IComparable<T>
     {
         private TreeNode<T> _root;
-
+        Queue
         public TreeNode<T> Get(T value) => _root?.Get(value);
 
         public T Min()
